@@ -32,8 +32,7 @@
     spinnerSmall.spinnerColor = [UIColor blueColor];
     [self.viewOuter addSubview:spinnerSmall];
     [spinnerSmall showAndStartAnimate];
-    spinnerSmall.center = CGPointMake(_viewOuter.frame.size.width/2, _viewOuter.frame.size.height/2);
-//    spinnerSmall.center = CGPointMake(_viewOuter.frame.origin.x + spinnerSmall.frame.size.width, _viewOuter.frame.origin.y + spinnerSmall.frame.size.height);
+    spinnerSmall.center = CGPointMake(_viewOuter.frame.origin.x + spinnerSmall.frame.size.width, _viewOuter.frame.origin.y + spinnerSmall.frame.size.height);
     
     
     
