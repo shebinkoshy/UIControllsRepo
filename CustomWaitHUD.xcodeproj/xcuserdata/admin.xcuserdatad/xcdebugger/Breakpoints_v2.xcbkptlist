@@ -9,13 +9,13 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "CustomWaitHUD/HomeViewController.m"
-            timestampString = "477901733.7135"
+            filePath = "CustomWaitHUD/AppDelegate.m"
+            timestampString = "477915515.802062"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "82"
-            endingLineNumber = "82"
-            landmarkName = "-viewDidLoad"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "-application:didFinishLaunchingWithOptions:"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -25,13 +25,13 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "CustomWaitHUD/HomeViewController.m"
-            timestampString = "477901733.7135"
+            filePath = "CustomWaitHUD/SHActivityView.m"
+            timestampString = "477911937.127357"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "99"
-            endingLineNumber = "99"
-            landmarkName = "-dismiss"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "-showAndStartAnimate"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -41,13 +41,13 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "CustomWaitHUD/HomeViewController.m"
-            timestampString = "477901733.7135"
+            filePath = "CustomWaitHUD/SHActivityView.m"
+            timestampString = "477911950.454969"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "106"
-            endingLineNumber = "106"
-            landmarkName = "-buttonAction:"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "-showAndStartAnimate"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>

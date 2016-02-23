@@ -38,7 +38,7 @@
     }
     
     [self setAlpha:0.0];
-    if (!self.backgroundColor)
+    if (!self.backgroundColor && _spinnerSize != kSHSpinnerSizeTiny && _spinnerSize != kSHSpinnerSizeSmall)
     {
         [self setBackgroundColor:[UIColor colorWithWhite:0.2f alpha:0.5f]];
     }
@@ -54,22 +54,23 @@
     {
         [[UIApplication sharedApplication] beginIgnoringInteractionEvents];
     }
+    viewNotRotate = self;
     viewActivitySquare = [[UIView alloc]init];
     CGRect frameViewActivitySquare;
     if (_spinnerSize == kSHSpinnerSizeTiny)
     {
         frameViewActivitySquare = CGRectMake(0, 0, 30, 30);
+        [self setFrame:frameViewActivitySquare];
     }
     if (_spinnerSize == kSHSpinnerSizeSmall)
     {
         frameViewActivitySquare = CGRectMake(0, 0, 50, 50);
+        [self setFrame:frameViewActivitySquare];
     }
     else if (_spinnerSize == kSHSpinnerSizeMedium || _spinnerSize == kSHSpinnerSizeLarge|| _spinnerSize == kSHSpinnerSizeVeryLarge)
     {
         UILabel *labelCenter;
         UILabel *labelBottom;
-        viewNotRotate = [[UIView alloc]init];
-        viewNotRotate = self;
         if (_spinnerSize == kSHSpinnerSizeMedium)
         {
             frameViewActivitySquare = CGRectMake(0, 0, 82, 82);

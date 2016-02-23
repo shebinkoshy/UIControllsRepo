@@ -17,7 +17,7 @@
 		843108291C75A0E000D7645F /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 843108271C75A0E000D7645F /* HomeViewController.m */; };
 		8431082A1C75A0E000D7645F /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 843108281C75A0E000D7645F /* HomeViewController.xib */; };
 		8431082D1C75A79D00D7645F /* SHActivityView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8431082C1C75A79D00D7645F /* SHActivityView.m */; };
-		843108301C75D31900D7645F /* TestTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = 8431082F1C75D31900D7645F /* TestTwo.m */; };
+		845C5B031C7C422300C13FA8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 845C5B021C7C422300C13FA8 /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,8 +57,7 @@
 		843108281C75A0E000D7645F /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 		8431082B1C75A79D00D7645F /* SHActivityView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHActivityView.h; sourceTree = "<group>"; };
 		8431082C1C75A79D00D7645F /* SHActivityView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHActivityView.m; sourceTree = "<group>"; };
-		8431082E1C75D31900D7645F /* TestTwo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestTwo.h; sourceTree = "<group>"; };
-		8431082F1C75D31900D7645F /* TestTwo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestTwo.m; sourceTree = "<group>"; };
+		845C5B021C7C422300C13FA8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +110,8 @@
 			children = (
 				843107F01C75A0A600D7645F /* AppDelegate.h */,
 				843107F11C75A0A600D7645F /* AppDelegate.m */,
+				8431082B1C75A79D00D7645F /* SHActivityView.h */,
+				8431082C1C75A79D00D7645F /* SHActivityView.m */,
 				843108261C75A0E000D7645F /* HomeViewController.h */,
 				843108271C75A0E000D7645F /* HomeViewController.m */,
 				843108281C75A0E000D7645F /* HomeViewController.xib */,
@@ -118,11 +119,8 @@
 				843108011C75A0A600D7645F /* LaunchScreen.storyboard */,
 				843108041C75A0A600D7645F /* Info.plist */,
 				843107F31C75A0A600D7645F /* CustomWaitHUD.xcdatamodeld */,
+				845C5B021C7C422300C13FA8 /* Images.xcassets */,
 				843107ED1C75A0A600D7645F /* Supporting Files */,
-				8431082B1C75A79D00D7645F /* SHActivityView.h */,
-				8431082C1C75A79D00D7645F /* SHActivityView.m */,
-				8431082E1C75D31900D7645F /* TestTwo.h */,
-				8431082F1C75D31900D7645F /* TestTwo.m */,
 			);
 			path = CustomWaitHUD;
 			sourceTree = "<group>";
@@ -257,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				843108031C75A0A600D7645F /* LaunchScreen.storyboard in Resources */,
+				845C5B031C7C422300C13FA8 /* Images.xcassets in Resources */,
 				843108001C75A0A600D7645F /* Assets.xcassets in Resources */,
 				8431082A1C75A0E000D7645F /* HomeViewController.xib in Resources */,
 			);
@@ -283,7 +282,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				843108301C75D31900D7645F /* TestTwo.m in Sources */,
 				8431082D1C75A79D00D7645F /* SHActivityView.m in Sources */,
 				843107F21C75A0A600D7645F /* AppDelegate.m in Sources */,
 				843107EF1C75A0A600D7645F /* main.m in Sources */,
@@ -418,6 +416,8 @@
 		8431081E1C75A0A700D7645F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = CustomWaitHUD/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -430,6 +430,8 @@
 		8431081F1C75A0A700D7645F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = CustomWaitHUD/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

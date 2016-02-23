@@ -7,9 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "SHActivityView.h"
+
 
 @interface HomeViewController : UIViewController
-@property (weak, nonatomic) IBOutlet SHActivityView *viewNew;
+@property (weak, nonatomic) IBOutlet UIView *viewSample;
+@property (weak, nonatomic) IBOutlet UIView *viewOuter;
 
 @end
