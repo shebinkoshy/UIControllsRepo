@@ -22,5 +22,11 @@ How to use ???
     
 Advantages
 
-  Support from iOS 6
-  Able to set colors for spinner
+ -> Support from iOS 6
+  
+ -> Able to set colors for spinner
+ 
+ -> Available in different sizes like tiny, small, medium, large, very large
+ 
+ -> Able to set Title (center and bottom) for medium, large, very large sizes
+
