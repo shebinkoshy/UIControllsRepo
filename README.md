@@ -1,6 +1,8 @@
 # UIControllsRepo
 spinner, HUD
 
+same in Swift https://github.com/shebinkoshy/Activity-Indicator-Swift
+
 How to use ???
 
  copy the files SHActivityView.h and SHActivityView.m to your project 
