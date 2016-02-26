@@ -3,6 +3,8 @@ spinner, HUD
 
 How to use ???
 
+ copy the files SHActivityView.h and SHActivityView.m to your project 
+
     #import "SHActivityView.h"
 
     SHActivityView *spinnerSmall; // globally declare
