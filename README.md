@@ -1,7 +1,11 @@
 # UIControllsRepo
 spinner, HUD
 
+same in Swift https://github.com/shebinkoshy/Activity-Indicator-Swift
+
 How to use ???
+
+ copy the files SHActivityView.h and SHActivityView.m to your project 
 
     #import "SHActivityView.h"
 
@@ -22,5 +26,11 @@ How to use ???
     
 Advantages
 
-  Support from iOS 6
-  Able to set colors for spinner
+ -> Support from iOS 6
+  
+ -> Able to set colors for spinner
+ 
+ -> Available in different sizes like tiny, small, medium, large, very large
+ 
+ -> Able to set Title (center and bottom) for medium, large, very large sizes
+
