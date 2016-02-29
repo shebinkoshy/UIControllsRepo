@@ -245,10 +245,13 @@
     return shape;
 }
 
--(void)setDisableUserInteraction:(BOOL)disableUserInteraction
+-(void)setDisableEntireUserInteraction:(BOOL)disableEntireUserInteraction
 {
-    _disableEntireUserInteraction = YES;
-    [[UIApplication sharedApplication] beginIgnoringInteractionEvents];
+    if (disableEntireUserInteraction)
+    {
+        _disableEntireUserInteraction = YES;
+        [[UIApplication sharedApplication] beginIgnoringInteractionEvents];
+    }
 }
 
 -(void)rotationAnimation
